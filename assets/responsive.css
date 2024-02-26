@@ -1,7 +1,6 @@
 @media screen and (max-width: 720px) {
     nav{
         padding:2rem 2rem;
-
     }
     nav ul{
         background-color:var(--secondary-color);
@@ -24,6 +23,7 @@
     }
     nav ul.show{
         transform:translateX(0);
+        backdrop-filter: blur(10px);
     }
 
     .hero-section {
