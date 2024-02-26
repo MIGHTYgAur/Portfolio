@@ -55,7 +55,7 @@
         line-height:2rem;
       }
       .skills-menu{
-        padding:0px 30px;
+        padding:0px 44px;
         row-gap:1.25rem;
         column-gap:2.5rem;
       }
@@ -92,7 +92,7 @@
       max-width: 17.75rem;
     }
     .skills-menu{
-      padding:0px 30px;
+      padding:0px 20px;
       width:100%;
      row-gap:1rem;
      column-gap:2rem;
