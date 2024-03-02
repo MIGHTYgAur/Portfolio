@@ -165,7 +165,7 @@ nav ul li{
 max-width:68.75rem;
 margin:auto;
 }
-.skills h3{
+.skill-name{
 color:#fff;
 text-align:center;
 margin-top:20px;
@@ -184,7 +184,8 @@ margin-top:20px;
 width:100%;
 margin-top:2rem;
 display:grid;
-grid-template-columns:1fr 1fr 1fr;
+/* grid-template-columns:1fr 1fr 1fr; */
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 padding:0rem 15rem;
 row-gap:1.5rem;
 column-gap:3rem;
@@ -206,6 +207,10 @@ align-items:center;
     padding: 10px;
     position:relative;
     color:#fff;
+
+}
+.skills h3{
+    margin-top:2rem;
 }
 .skill-name{
     text-align:center;
